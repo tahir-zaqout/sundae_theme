@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sundae_theme *.css
+recursive-include sundae_theme *.csv
+recursive-include sundae_theme *.html
+recursive-include sundae_theme *.ico
+recursive-include sundae_theme *.js
+recursive-include sundae_theme *.json
+recursive-include sundae_theme *.md
+recursive-include sundae_theme *.png
+recursive-include sundae_theme *.py
+recursive-include sundae_theme *.svg
+recursive-include sundae_theme *.txt
+recursive-exclude sundae_theme *.pyc
