@@ -1,0 +1,198 @@
+[data-theme=cherry] {
+    --pink-50: #fff1f2;
+    --pink-100: #ffe4e6;
+    --pink-200: #fecdd3;
+    --pink-300: #fda4af;
+    --pink-400: #fb7185;
+    --pink-500: #f43f5e;
+    --pink-600: #e11d48;
+    --pink-700: #be123c;
+    --pink-800: #9f1239;
+    --pink-900: #881337;
+    --rose-50: #fff1f2;
+    --rose-100: #ffe4e6;
+    --rose-200: #fecdd3;
+    --rose-300: #fda4af;
+    --rose-400: #fb7185;
+    --rose-500: #f43f5e;
+    --rose-600: #e11d48;
+    --rose-700: #be123c;
+    --rose-800: #9f1239;
+    --rose-900: #881337;
+    --primary-color: #f43f5e;
+    --background-color: #f43f5e;
+    --text-muted: var(--pink-400);
+    --text-light: var(--pink-300);
+    --text-color: var(--pink-50);
+    --heading-color: var(--pink-50);
+    --btn-default-bg: var(--pink-700);
+    --btn-default-hover-bg: var(--pink-500);
+    --bg-blue: var(--rose-600);
+    --bg-light-blue: var(--rose-400);
+    --bg-dark-blue: var(--rose-800);
+    --bg-green: var(--green-600);
+    --bg-yellow: var(--yellow-500);
+    --bg-orange: var(--orange-500);
+    --bg-red: var(--red-600);
+    --bg-pink: var(--pink-400);
+    --bg-grey: var(--pink-400);
+    --bg-darkgrey: var(--pink-700);
+    --bg-dark-pink: var(--pink-700);
+    --bg-light-pink: var(--pink-800);
+    --bg-purple: var(--purple-700);
+    --bg-pink: var(--pink-700);
+    --bg-cyan: var(--cyan-800);
+    --text-on-blue: white;
+    --text-on-light-blue: var(--pink-50);
+    --text-on-dark-blue: var(--rose-300);
+    --text-on-green: var(--dark-green-50);
+    --text-on-yellow: var(--yellow-50);
+    --text-on-orange: var(--orange-100);
+    --text-on-red: var(--red-50);
+    --text-on-pink: var(--pink-50);
+    --text-on-grey: var(--pink-50);
+    --text-on-darkgrey: var(--pink-200);
+    --text-on-dark-pink: var(--pink-200);
+    --text-on-light-pink: var(--pink-100);
+    --text-on-purple: var(--purple-100);
+    --text-on-pink: var(--pink-100);
+    --text-on-cyan: var(--cyan-100);
+    --bg-color: var(--pink-900);
+    --fg-color: var(--pink-800);
+    --navbar-bg: var(--pink-800);
+    --fg-hover-color: var(--pink-700);
+    --card-bg: var(--pink-800);
+    --disabled-text-color: var(--pink-400);
+    --disabled-control-bg: var(--pink-700);
+    --control-bg: var(--pink-300);
+    --control-bg-on-pink: var(--pink-800);
+    --awesomebar-focus-bg: var(--control-bg);
+    --awesomplete-hover-bg: var(--pink-300);
+    --modal-bg: var(--pink-700);
+    --toast-bg: var(--modal-bg);
+    --popover-bg: var(--bg-color);
+    --error-bg: var(--red-70);
+    --error-border: var(--red-400);
+    --icon-fill: transparent;
+    --icon-stroke: var(--pink-300);
+    --alert-text-danger: var(--red-300);
+    --alert-text-warning: var(--yellow-300);
+    --alert-text-info: var(--rose-300);
+    --alert-text-success: var(--green-300);
+    --alert-bg-danger: var(--red-900);
+    --alert-bg-warning: var(--yellow-900);
+    --alert-bg-info: var(--rose-900);
+    --alert-bg-success: var(--green-900);
+    --sidebar-select-color: var(--pink-800);
+    --scrollbar-thumb-color: var(--pink-600);
+    --scrollbar-track-color: var(--pink-700);
+    --shadow-inset: var(--fg-color);
+    --border-color: var(--pink-700);
+    --dark-border-color: var(--pink-600);
+    --table-border-color: var(--pink-600);
+    --highlight-color: var(--pink-700);
+    --yellow-highlight-color: var(--yellow-700);
+    --btn-group-border-color: var(--pink-800);
+    --highlight-shadow: 1px 1px 10px var(--rose-900), 0px 0px 4px var(--rose-500);
+    --shadow-base: 0px 4px 8px rgba(114, 176, 233, 0.06), 0px 0px 4px rgba(112, 172, 228, 0.12);
+    --diff-added: var(--green-800);
+    --diff-removed: var(--red-800);
+    --input-disabled-bg: none;
+    --checkbox-focus-shadow: 0 0 0 2px var(--pink-600);
+    color-scheme: dark;
+}
+
+[data-theme=cherry] .chart-container {
+    --charts-label-color: var(--pink-300);
+    --charts-axis-line-color: var(--pink-500);
+    --charts-stroke-width: 5px;
+    --charts-dataset-circle-stroke: #ffffff;
+    --charts-dataset-circle-stroke-width: var(--charts-stroke-width);
+    --charts-tooltip-title: var(--charts-label-color);
+    --charts-tooltip-label: var(--charts-label-color);
+    --charts-tooltip-value: white;
+    --charts-tooltip-bg: var(--pink-900);
+    --charts-legend-label: var(--charts-label-color);
+}
+
+[data-theme=cherry] .heatmap-chart g>rect[fill="#ebedf0"] {
+    fill: var(--pink-700);
+}
+
+[data-theme=cherry] .rating {
+    --star-fill: var(--pink-500);
+}
+
+[data-theme=cherry] .rating .star-hover {
+    --star-fill: var(--pink-400);
+}
+
+[data-theme=cherry] .skeleton {
+    background-color: var(--pink-800);
+}
+
+[data-theme=cherry] ::-moz-selection {
+    color: var(--text-color);
+    background: var(--pink-500);
+}
+
+[data-theme=cherry] ::selection {
+    color: var(--text-color);
+    background: var(--pink-500);
+}
+
+[data-theme=cherry] .indicator {
+    --indicator-dot-blue: var(--bg-blue);
+}
+
+[data-theme=cherry] .indicator {
+    --indicator-dot-light-blue: var(--bg-light-blue);
+}
+
+[data-theme=cherry] .indicator {
+    --indicator-dot-dark-blue: var(--bg-dark-blue);
+}
+
+[data-theme=cherry] .indicator {
+    --indicator-dot-green: var(--bg-green);
+}
+
+[data-theme=cherry] .indicator {
+    --indicator-dot-yellow: var(--bg-yellow);
+}
+
+[data-theme=cherry] .indicator {
+    --indicator-dot-orange: var(--bg-orange);
+}
+
+[data-theme=cherry] .indicator {
+    --indicator-dot-red: var(--bg-red);
+}
+
+[data-theme=cherry] .indicator {
+    --indicator-dot-pink: var(--bg-pink);
+}
+
+[data-theme=cherry] .indicator {
+    --indicator-dot-grey: var(--bg-grey);
+}
+
+[data-theme=cherry] .indicator {
+    --indicator-dot-darkgrey: var(--bg-darkgrey);
+}
+
+[data-theme=cherry] .indicator {
+    --indicator-dot-purple: var(--bg-purple);
+}
+
+[data-theme=cherry] .indicator {
+    --indicator-dot-pink: var(--bg-pink);
+}
+
+[data-theme=cherry] .indicator {
+    --indicator-dot-cyan: var(--bg-cyan);
+}
+
+[data-theme=cherry] .page-form .filter-button.btn-primary-light{
+    color: var(--pink-800);
+}

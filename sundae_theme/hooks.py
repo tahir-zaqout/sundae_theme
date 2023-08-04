@@ -6,13 +6,18 @@ app_publisher = "tahir zaqout"
 app_description = "multi themes for frappe & erpnext apps"
 app_email = "tahirzaqout8@gmail.com"
 app_license = "MIT"
+app_logo_url = "/assets/sundae_theme/img/slogo.jpg"
 
+website_context = {
+	"favicon": "/assets/sundae_theme/img/logo.png",
+	"splash_image": "/assets/sundae_theme/img/slogo.jpg",
+}
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/sundae_theme/css/sundae_theme.css"
-# app_include_js = "/assets/sundae_theme/js/sundae_theme.js"
+app_include_css = "sundae_theme.bundle.css"
+app_include_js = ["sundae_theme.bundle.js"]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/sundae_theme/css/sundae_theme.css"
@@ -155,9 +160,9 @@ app_license = "MIT"
 # Overriding Methods
 # ------------------------------
 #
-# override_whitelisted_methods = {
-#	"frappe.desk.doctype.event.event.get_events": "sundae_theme.event.get_events"
-# }
+override_whitelisted_methods = {
+	"frappe.core.doctype.user.user.switch_theme": "sundae_theme.override.switch_theme"
+}
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
