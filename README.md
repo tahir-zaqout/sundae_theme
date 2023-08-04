@@ -19,8 +19,11 @@ As of now, the sundae_theme custom app provides the following theme:
 ### Usage
 Once you have installed the app, you can access the theme switcher in your Frappe instance and select 'The Theme' from the list of available themes.
 The selected theme will be applied to your Frappe application.
+<br>
 A- From top right click on user image
+<br>
 B- Select 'Toggle Theme', this will be display all available themes
+<br>
 
 ![select-menu](https://github.com/tahir-zaqout/sundae_theme/assets/122530674/4f62d1a6-359c-430e-9b11-a1445e9564f3)
 C- Select the theme
